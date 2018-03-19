@@ -2,12 +2,16 @@ package Project;
 import java.awt.*;
 
 import javax.swing.JFrame;
-public class Game {
+import javax.swing.JPanel;
+public class Game extends Canvas {
 	boolean isRunningGame = true;
 	boolean firstRun = true;
 
 	
 	public void runGame() {
+		JFrame gameFrame = new JFrame("Game Name"); //TODO change name
+		
+		JPanel panel = (JPanel)gameFrame.getContentPane();
 		
 	}
 
