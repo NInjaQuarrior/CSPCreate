@@ -7,22 +7,23 @@ public class Game extends Canvas {
 	boolean isRunningGame = true;
 	boolean firstRun = true;
 	int playerSpeed;
+	Ship player = new Ship("", 400,400, 20);
 
+public void startGame(){
+
+			//setUp screen
+			JFrame gameFrame = new JFrame("Game Name"); //TODO change name
+
+			JPanel panel = (JPanel)gameFrame.getContentPane();
+
+	//create game objects
+			Ship player = new Ship("", 400,400, 20);
+
+}
 
 	public void runGame() {
-		JFrame gameFrame = new JFrame("Game Name"); //TODO change name
+			
 
-		JPanel panel = (JPanel)gameFrame.getContentPane();
-
-
-
-
-
-
-
-
-		//create game objects
-		Ship player = new Ship(400, 400, playerSpeed,"", 20, );
 	}
 
 	public static void main(String[] args) {

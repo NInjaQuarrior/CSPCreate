@@ -1,25 +1,23 @@
-<<<<<<< HEAD
+
 package Project;
 
-public class Ship {
+public class Ship{
 
-	//TODO
-	String sprite = "";
-	
-	int Speed = "";
-	
-	
+public int Xvelocity;
+public int Yvelocity;
+
+public void setVelocityX(int velocity){
+	Xvelocity = velocity;
 }
-=======
-package Project;
-
-public class Ship {
-
-	//TODO
-	String sprite = "";
-	
-	int Speed = "";
-	
-	
+public void setVelocityY(int velocity){
+	Yvelocity = velocity;
 }
->>>>>>> e8d7aff38fd6663b2ad4a2ad8ce475c45e867c1e
+
+public Ship(	String sprite,final int startX, int startY, int  maxSpeed){
+
+
+
+}
+
+
+}
