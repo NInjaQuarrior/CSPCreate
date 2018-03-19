@@ -12,9 +12,10 @@ public class Game {
 	}
 
 	public static void main(String[] args) {
-		
+		//creates game object
 		Game game = new Game();
-					
+			//runs game object
+	
 			game.runGame();
 	
 	}
