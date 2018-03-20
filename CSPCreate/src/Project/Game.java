@@ -1,13 +1,17 @@
 package Project;
 import java.awt.*;
-
+import java.awt.event.KeyListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyAdapter;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
 public class Game extends Canvas {
 	boolean isRunningGame = true;
 	boolean firstRun = true;
 	int playerSpeed;
 	Ship player = new Ship("", 400,400, 20);
+
 
 public void startGame(){
 
@@ -16,13 +20,14 @@ public void startGame(){
 
 			JPanel panel = (JPanel)gameFrame.getContentPane();
 
-	//create game objects
-			Ship player = new Ship("", 400,400, 20);
+			panel.setVisible(true);
+//TODO
+		//	addKeyListener(new keyInputHandle());
 
 }
 
 	public void runGame() {
-			
+
 
 	}
 
