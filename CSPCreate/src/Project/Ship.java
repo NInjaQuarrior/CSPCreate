@@ -13,7 +13,7 @@ public void setVelocityY(int velocity){
 	Yvelocity = velocity;
 }
 
-public Ship(	String sprite,final int startX, int startY, int  maxSpeed){
+public Ship(	String sprite,int startX, int startY, int maxSpeed){
 
 
 
