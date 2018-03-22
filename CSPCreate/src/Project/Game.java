@@ -14,7 +14,7 @@ public class Game extends Canvas {
 	Shot shot = new Shot("", 20);
 
 
-public void startGame(){
+public boolean startGame(){
 
 			//setUp screen
 			JFrame gameFrame = new JFrame("Game Name"); //TODO change name
@@ -25,6 +25,13 @@ public void startGame(){
 //TODO
 		//	addKeyListener(new keyInputHandle());
 
+		//create aliens
+		for(int i = 0;  i < 30; i ++){
+		
+
+
+		}
+return false;
 }
 
 	public void runGame() {
@@ -33,11 +40,19 @@ public void startGame(){
 	}
 
 	public static void main(String[] args) {
+		boolean hasStartedGame = false;
 		//creates game object
 		Game game = new Game();
 			//runs game object
+		if(hasStartedGame == false){
+				game.startGame();
+				if(game.startGame){
+					hasStartedGame = true;
+				}
+		}else{
+				game.runGame();
+		}
 
-			game.runGame();
 
 	}
 
